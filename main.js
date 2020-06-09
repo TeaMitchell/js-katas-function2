@@ -28,7 +28,7 @@ console.log(power(8, 3));
 function factorial(x){
     let total = 1
     for (let index = 0; index <= x ; index += 1) {
-        total = power(x, total)
+        total = power(x)
         
         
     }
